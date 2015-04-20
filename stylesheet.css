@@ -1,16 +1,39 @@
+body {
+	font-family: sans-serif;
+}
 table {
 	border: 1px solid black;
 	text-align: center;
-	width: 600px;
+	width: 100%;
+}
+tr:nth-child(even) {
+	background-color: grey;
 }
 th {
 	padding: 10px;
 }
 #btn {
 	margin: 20px auto;
-	background-color: #FFFF00;
+	background-color: red;
 	width: 200px;
 	height: 50px;
 	font-size: 14px;
+	font-weight: bold;
 
+}
+
+#btn:hover {
+	background-color: grey;
+}
+
+#btn:active {
+	background-color: white;
+}
+tr:hover {
+	background-color: grey;
+}
+main {
+	text-align: center;
+	width: 600px;
+	margin: 0 auto;
 }
